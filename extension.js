@@ -49,7 +49,7 @@
         botName: 'basicBot',
         language: 'english',
         chatLink: 'https://dl.dropboxusercontent.com/s/w19u72ht0d2jxkb/lt.json',
-        scriptLink: 'https://rawgit.com/basicBot/source/master/basicBot.js',
+        scriptLink: 'https://rawgit.com/socketchecker/source/master/basicBot.js',
         roomLock: false, // Requires an extension to re-load the script
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
@@ -115,6 +115,6 @@
     }));
 
     // Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/basicBot/source/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/socketchecker/source/master/basicBot.js", extend);
 
 }).call(this);
